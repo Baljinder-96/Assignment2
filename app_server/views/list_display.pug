@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 My BookList
+   h2
+  each element in books
+    p=element.title +": "+ element.author 
+    br
+    
